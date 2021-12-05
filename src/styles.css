@@ -1,3 +1,32 @@
+:root {
+  --branding-color: #6c63ff;
+  --heading-font-family: "playfair Dispaly", serif;
+  --defaulf-font-family: "poppins", sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
 h1 {
-  background: blue;
+  font-size: 96px;
+}
+p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+}
+.homepagetop {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 160px 20px;
+}
+.homepagetop p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+}
+.btn-branding {
+  background: var(--branding-color);
 }
