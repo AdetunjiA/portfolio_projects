@@ -3,6 +3,9 @@
   --heading-font-family: "playfair Dispaly", serif;
   --defaulf-font-family: "poppins", sans-serif;
 }
+body {
+  font-family: var(--defaulf-font-family);
+}
 h1,
 h2,
 h3 {
@@ -29,4 +32,8 @@ p {
 }
 .btn-branding {
   background: var(--branding-color);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
