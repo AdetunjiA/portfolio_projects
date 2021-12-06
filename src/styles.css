@@ -1,5 +1,6 @@
 :root {
   --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
   --heading-font-family: "playfair Dispaly", serif;
   --defaulf-font-family: "poppins", sans-serif;
 }
@@ -27,7 +28,7 @@ p {
   line-height: 30px;
 }
 .homepagetop {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -58,13 +59,6 @@ p {
   padding: 15px 30px;
   text-decoration: none;
 }
-/* @media (max-width: 900px) {
-  .projects {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-} */
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
