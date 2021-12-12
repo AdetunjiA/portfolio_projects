@@ -65,3 +65,35 @@ p {
     text-align: center;
   }
 }
+.aboutsection {
+  padding: 160px 20px;
+}
+.aboutsection h1 {
+  font-size: 64px;
+  font-family: Playfair Display;
+  font-weight: bold;
+}
+.aboutsection h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.aboutsection p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(39, 33, 66, 0.7);
+}
+.aboutsection-content {
+  margin: 30px;
+}
+@media (max-width: 900px) {
+  .aboutsection-content {
+    text-align: center;
+    padding: 0;
+  }
+}
+.aboutsection img {
+  border-radius: 20px;
+}
