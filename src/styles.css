@@ -64,7 +64,7 @@ p {
     text-align: center;
     padding: 0;
   } */
-@media (max-width: 991px) {
+@media (max-width: 900px) {
   .project-description {
     /* max-width: 720px; */
     text-align: center;
