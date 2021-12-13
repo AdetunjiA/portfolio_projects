@@ -27,12 +27,50 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/534d783841.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
+    <title>Home Page</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid d-flex justify-content-between">
+        <img src="images/logo.png" class="logo navbar-brand" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="homepagetop">
       <div>
         <p>👋 Hi I am</p>
@@ -43,16 +81,16 @@
     </div>
     <p class="text-center m-5">Featured here are some of my best projects</p>
     <div class="container">
-      <div class="row d-flex mt-5 mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/yoga.png"
-            class="img-fluid rounded d-none d-sm-block"
-            alt="Yoga project"
-          />
-        </div>
-        <div class="col-md-6">
-          <div class="project-description">
+      <div class="project-description">
+        <div class="row d-flex mt-5 mb-5">
+          <div class="col d-none d-lg-block">
+            <img
+              src="images/yoga.png"
+              class="img-fluid rounded d-none d-sm-block"
+              alt="Yoga project"
+            />
+          </div>
+          <div class="col-md-6">
             <h2 class="mb-5">Yoga App</h2>
             <p class="mb-5 text-muted">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -66,58 +104,122 @@
               >
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row d-flex mt-5 mb-5">
-        <div class="col-md-6">
-          <div class="project-description">
-            <h2 class="mb-5">Weather App</h2>
-            <p class="mb-5 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
-            <div mb-5>
-              <a href="#" class="project-link projects" title="Weather project"
-                >Learn More</a
-              >
+          <div class="row d-flex mt-5 mb-5">
+            <div class="col-md-6">
+              <h2 class="mb-5">Weather App</h2>
+              <p class="mb-5 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+                omnis quam vel eos eveniet alias temporibus deserunt veritatis
+                minima fugiat explicabo eum dolore.
+              </p>
+              <div mb-5>
+                <a
+                  href="#"
+                  class="project-link projects"
+                  title="Weather project"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col d-none d-lg-block">
+              <img
+                src="images/weather.png"
+                class="img-fluid rounded d-none d-sm-block"
+                alt="Weather project"
+              />
+            </div>
+          </div>
+          <div class="row d-flex mt-5 mb-5">
+            <div class="col d-none d-lg-block">
+              <img
+                src="images/yogurt.png"
+                class="img-fluid rounded d-none d-sm-block"
+                alt="Yogurt Project"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2 class="mb-5">Yogurt App</h2>
+              <p class="mb-5 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+                omnis quam vel eos eveniet alias temporibus deserunt veritatis
+                minima fugiat explicabo eum dolore.
+              </p>
+              <div class="mt-5">
+                <a href="#" class="project-link projects" title="Learn More"
+                  >Learn More</a
+                >
+              </div>
             </div>
           </div>
         </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/weather.png"
-            class="img-fluid rounded d-none d-sm-block"
-            alt="Weather project"
-          />
-        </div>
       </div>
-      <div class="row d-flex mt-5 mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/yogurt.png"
-            class="img-fluid rounded d-none d-sm-block"
-            alt="Yogurt Project"
-          />
-        </div>
-        <div class="col-md-6">
-          <div class="project-description">
-            <h2 class="mb-5">Yogurt App</h2>
-            <p class="mb-5 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
+      <footer>
+        <div class="footer-container">
+          <!-- <div class="footer-content d-none d-md-flex"> -->
+          <div
+            class="
+              footer-content
+              d-flex
+              mt-5
+              justify-content-between
+              d-none d-md-flex
+            "
+          >
             <div class="mt-5">
-              <a href="#" class="project-link projects" title="Learn More"
-                >Learn More</a
+              <h3>Work Inquiry</h3>
+              <p class="text-muted">Let's work together</p>
+            </div>
+            <div class="">
+              <a href="#" class="btn btn-branding mt-5" title="Contact Adeola"
+                >Contact Me</a
               >
             </div>
           </div>
+          <!-- </div> -->
+          <div class="d-flex justify-content-center mt-5">
+            <a
+              href="mailto:adeola@gmail.com"
+              class="email-link"
+              tiltle="Email Adeola"
+              >adeola@gmail.com</a
+            >
+          </div>
         </div>
-      </div>
+        <div class="social-links d-flex justify-content-center mt-5 mb-5">
+          <a
+            href="https://www.github.com/adetunjia"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+
+        <p class="text-center mb-5">
+          ✌️ This website was coded by Adeola Adetunji and is
+          <a
+            href="https://githb.com/matthieua/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
